@@ -5,6 +5,10 @@ on:
     branches:
       - main  # or your deployment branch
 
+env:
+  AWS_ACCESS_KEY_ID: "AKIA6GBMCSOG2G6ERHUS"
+  AWS_SECRET_ACCESS_KEY: "px9wYUa+tFFOVh1bMwoUyxQW2ENPj0ONzGIsCsYw"
+  AWS_REGION: "ap-south-1"
 jobs:
   deploy:
     runs-on: ubuntu-latest
